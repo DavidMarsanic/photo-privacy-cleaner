@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "dependencies": [
+    {
+      "id": "goexif",
+      "name": "goexif",
+      "version": "v0.0.0-20190401172101-9e8deecbddbd",
+      "homepage": "https://github.com/rwcarlsen/goexif",
+      "note": "Compiled directly into this binary — reads EXIF fields (GPS, camera, date) to show what was found. Metadata removal itself is a hand-written, lossless JPEG/PNG segment stripper (internal/engine/jpeg.go, png.go), not this library. Not a separate install; listed for transparency about what this app is built on."
+    }
+  ],
+  "requirements": [
+    {
+      "id": "chromium-browser",
+      "name": "Chrome or Chromium-based browser",
+      "homepage": "https://www.google.com/chrome/",
+      "note": "Any Chromium-based browser works: Google Chrome, Chromium, Brave, Microsoft Edge, or Arc. Used to render the app's own UI window, same as the rest of this family of apps.",
+      "install": {
+        "macos": "brew install --cask google-chrome"
+      }
+    }
+  ]
+}

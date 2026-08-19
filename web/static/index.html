@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Photo Privacy Cleaner</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main class="app">
+
+  <div id="dropZone" class="drop-zone">
+    <p class="drop-title">Drop photos here</p>
+    <p class="drop-sub">or click to choose — JPEG and PNG. Nothing is uploaded anywhere; this all happens on your machine.</p>
+    <input id="fileInput" type="file" accept="image/jpeg,image/png" multiple hidden>
+  </div>
+
+  <div id="error" class="error hidden"></div>
+
+  <section id="workspace" class="workspace hidden">
+    <div class="workspace-header">
+      <span id="photoCount" class="photo-count"></span>
+      <button id="startOver" class="link-btn" type="button">Start over</button>
+    </div>
+
+    <div class="action-bar">
+      <button id="cleanBtn" class="btn primary" type="button">Remove private information</button>
+      <span id="cleanStatus" class="clean-status"></span>
+    </div>
+
+    <div id="photoGrid" class="photo-grid"></div>
+  </section>
+
+</main>
+<script src="/app.js"></script>
+</body>
+</html>
