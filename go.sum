@@ -1,2 +1,4 @@
+github.com/DavidMarsanic/brightencode-appkit v0.0.0-20260916191639-9b94bd78610b h1:U0qObFoGCJbOxdhftmp/W1QaLPoWmn7MNux3NFXLr9k=
+github.com/DavidMarsanic/brightencode-appkit v0.0.0-20260916191639-9b94bd78610b/go.mod h1:cN/0lUiP4Hl5mhkfMQPcEkEs5/BmsHA4OnReWJF3610=
 github.com/rwcarlsen/goexif v0.0.0-20190401172101-9e8deecbddbd h1:CmH9+J6ZSsIjUK3dcGsnCnO41eRBOnY12zwkn5qVwgc=
 github.com/rwcarlsen/goexif v0.0.0-20190401172101-9e8deecbddbd/go.mod h1:hPqNNc0+uJM6H+SuU8sEs5K5IQeKccPqeSjfgcKGgPk=
